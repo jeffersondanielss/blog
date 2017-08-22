@@ -1,0 +1,27 @@
+.blog-posts .title {
+  font-size: 22px;
+}
+
+.blog-posts .title a {
+  color: #1A1B1D;
+}
+
+
+.blog-post-preview {
+  margin-bottom: 60px;
+}
+
+.date {
+  float: right;
+  color: #444;
+  font-size: 16px;
+}
+
+@media screen and ( max-width: 440px ) {
+  .date {
+    display: block;
+    float: none;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}

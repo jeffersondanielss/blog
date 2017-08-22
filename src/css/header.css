@@ -1,0 +1,17 @@
+.header {
+  background-color: #1A1B1D;
+  position: relative;
+  box-shadow: 0 2px 2px #c5c5c5;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  display: block;
+  width: 100%;
+  background: -moz-linear-gradient(left, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #34c29c), color-stop(34%, #5bafce), color-stop(65%, #d5647b), color-stop(100%, #e4903d));
+  background: linear-gradient(to right, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
+}
