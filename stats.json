@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "commons": [
+      "commons-86508d60e97dde59b038.js",
+      "commons-86508d60e97dde59b038.js.map"
+    ],
+    "layout-component---index": [
+      "layout-component---index-361cae719d33f26b490e.js",
+      "layout-component---index-361cae719d33f26b490e.js.map"
+    ],
+    "page-component---src-templates-blog-post-js": [
+      "page-component---src-templates-blog-post-js-efa1de622f3e7d5f36dc.js",
+      "page-component---src-templates-blog-post-js-efa1de622f3e7d5f36dc.js.map"
+    ],
+    "page-component---src-pages-index-js": [
+      "page-component---src-pages-index-js-977b131818f5102821ae.js",
+      "page-component---src-pages-index-js-977b131818f5102821ae.js.map"
+    ],
+    "page-component---src-templates-tags-js": [
+      "page-component---src-templates-tags-js-d1e378a298a4b0acd87d.js",
+      "page-component---src-templates-tags-js-d1e378a298a4b0acd87d.js.map"
+    ],
+    "path---tirando-maior-proveito-do-sass-html": [
+      "path---tirando-maior-proveito-do-sass-html-c112ded8f58fff143550.js",
+      "path---tirando-maior-proveito-do-sass-html-c112ded8f58fff143550.js.map"
+    ],
+    "path---tags": [
+      "path---tags-b3ea2b613614ec165b88.js",
+      "path---tags-b3ea2b613614ec165b88.js.map"
+    ],
+    "path---tags-sass": [
+      "path---tags-sass-2987f40a133fa8654949.js",
+      "path---tags-sass-2987f40a133fa8654949.js.map"
+    ],
+    "path---tags-javascript": [
+      "path---tags-javascript-a93c9803b5c2ca983070.js",
+      "path---tags-javascript-a93c9803b5c2ca983070.js.map"
+    ],
+    "path---tags-first": [
+      "path---tags-first-f335026ed82411303997.js",
+      "path---tags-first-f335026ed82411303997.js.map"
+    ],
+    "path---tags-css": [
+      "path---tags-css-04d3c2d80216b291a1ac.js",
+      "path---tags-css-04d3c2d80216b291a1ac.js.map"
+    ],
+    "path---index": [
+      "path---index-5501acce549a65d8a085.js",
+      "path---index-5501acce549a65d8a085.js.map"
+    ],
+    "path---immediately-invoked-function-expression-html": [
+      "path---immediately-invoked-function-expression-html-6bbfe67ac1884cc30368.js",
+      "path---immediately-invoked-function-expression-html-6bbfe67ac1884cc30368.js.map"
+    ],
+    "path---hello-world-html": [
+      "path---hello-world-html-f30710f26f12ba1cc754.js",
+      "path---hello-world-html-f30710f26f12ba1cc754.js.map"
+    ],
+    "path---404": [
+      "path---404-586c7e095e534a3909ec.js",
+      "path---404-586c7e095e534a3909ec.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-586c7e095e534a3909ec.js",
+      "path---404-html-586c7e095e534a3909ec.js.map"
+    ],
+    "page-component---src-pages-404-js": [
+      "page-component---src-pages-404-js-714a6745554044a4d4d5.js",
+      "page-component---src-pages-404-js-714a6745554044a4d4d5.js.map"
+    ],
+    "app": [
+      "app-777277602c1b720aab05.js",
+      "app-777277602c1b720aab05.js.map"
+    ]
+  }
+}
