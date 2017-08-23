@@ -2,6 +2,7 @@
   background-color: #1A1B1D;
   position: relative;
   box-shadow: 0 2px 2px #c5c5c5;
+  margin-bottom: 40px;
 }
 
 .header::after {

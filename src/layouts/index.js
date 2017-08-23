@@ -14,8 +14,6 @@ export default class Template extends React.Component {
   };
 
   render() {
-    const { location } = this.props;
-
     return (
       <div>
         <Helmet

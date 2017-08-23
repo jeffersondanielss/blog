@@ -35,14 +35,21 @@ html {
 }
 *, *:before, *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+  color: #1A1B1D;
 }
 
 .wrapper {
   margin: 0 auto;
   width: 90%;
   max-width: 900px;
+}
+
+li {
+  list-style: none
 }

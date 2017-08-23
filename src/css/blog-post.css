@@ -2,10 +2,19 @@
   font-size: 22px;
 }
 
-.blog-posts .title a {
-  color: #1A1B1D;
+.blog-post-content p {
+  line-height: 30px;
+  font-size: 18px;
+  margin: 25px 0;
 }
 
+.blog-post-content h1,
+.blog-post-content h2,
+.blog-post-content h3,
+.blog-post-content h4,
+.blog-post-content h5 {
+  margin: 60px 0 30px;
+}
 
 .blog-post-preview {
   margin-bottom: 60px;

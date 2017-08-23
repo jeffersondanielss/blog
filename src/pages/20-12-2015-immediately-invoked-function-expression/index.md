@@ -2,7 +2,7 @@
 path: "/immediately-invoked-function-expression.html"
 date: "2015-12-20T03:49:16.408Z"
 title: "Immediately invoked function expression"
-tags: ["javascript"]
+tags: ["javascript", "front-end"]
 ---
 
 O IIFE ou Immediately-invoked function expression, é umas das formas de se declarar uma função no javascript, para entender melhor **como uma variável pode receber um valor de uma IIFE** temos que entender antes alguns conceitos.
