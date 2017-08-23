@@ -1,0 +1,11 @@
+.gatsby-highlight {
+  margin: 40px 0;
+  background-color: #272822;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.gatsby-highlight pre {
+  box-shadow: 0 6px 15px #bbb;
+  border-radius: 10px;
+}

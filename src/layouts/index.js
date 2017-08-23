@@ -2,12 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import prism from 'prismjs/themes/prism-okaidia.css'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/header/header'
 
-import '../css/font.css'
-import '../css/reset.css';
-
+import '../components/style.css'
 export default class Template extends React.Component {
   static propTypes = {
     children: PropTypes.func,
@@ -26,10 +23,9 @@ export default class Template extends React.Component {
         
         <Header />
 
-        <div className='wrapper'>
+        <div>
           { this.props.children() }
         </div>
-        <Footer />
       </div>
     );
   }
