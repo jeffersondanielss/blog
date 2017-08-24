@@ -3,6 +3,7 @@
   position: relative;
   box-shadow: 0 2px 2px #c5c5c5;
   margin-bottom: 40px;
+  padding: 15px 0;  
 }
 
 .header::after {
@@ -17,12 +18,19 @@
   background: linear-gradient(to right, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
 }
 
+.header-nav {
+  float: right;
+}
+
+.header-link {
+  margin-left: 10px;
+}
+
 .logo {
   display: inline-block;
   text-decoration: none;
   position: relative;
   color: #FFFFFF;
-  padding: 15px 0;
   font-size: 18px;
   font-family: 'Encode Sans'
 }
