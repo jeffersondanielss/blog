@@ -2,7 +2,7 @@ import React from 'react';
 import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-import Link from '../components/Link';
+import Link from '../components/link';
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -17,7 +17,9 @@ export default function Index({ data }) {
                 <GatsbyLink to={post.frontmatter.path}>
                   {post.frontmatter.title}
                 </GatsbyLink>
-                <span className="date">{post.frontmatter.date}</span>
+                <span className="date">
+                  {post.frontmatter.date}
+                </span>
               </h1>
               <p>
                 {post.excerpt}

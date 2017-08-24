@@ -3,7 +3,7 @@ import GatsbyLink from 'gatsby-link';
 import HomeIcon from 'react-icons/lib/fa/home';
 import TagsIcon from 'react-icons/lib/fa/tags';
 
-import Link from '../components/Link';
+import Link from '../components/link';
 
 export default function Tags({ pathContext }) {
   const { posts, post, tag } = pathContext;
@@ -36,7 +36,7 @@ export default function Tags({ pathContext }) {
     );
   }
   return (
-    <div>
+    <div className='wrapper'>
       <h1>Tags</h1>
       <ul className="tags">
         {Object.keys(posts).map(tagName => {
