@@ -1,0 +1,13 @@
+.post-preview {
+  border-bottom: 1px solid #F5F5F5;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+}
+
+.post-preview-title {
+  margin-bottom: 30px;
+}
+
+.post-preview-text {
+  font-size: 16px;
+}

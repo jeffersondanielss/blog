@@ -1,5 +1,12 @@
-.blog-posts .title {
-  font-size: 22px;
+.blog-post-head {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f5f5f5;
+  text-align: center;
+}
+
+.blog-post-title {
+  font-size: 35px;
+  margin-bottom: 10px;
 }
 
 .blog-post-content p {
@@ -17,18 +24,25 @@
   font-size: 24px;
 }
 
-.blog-post-preview {
-  margin-bottom: 60px;
+.date {
+  color: #777;
+  font-size: 14px;
 }
 
-.date {
-  float: right;
-  color: #444;
+.gatsby-highlight {
+  margin: 40px 0;
+  background-color: #272822;
   font-size: 16px;
+  border-radius: 10px;
+}
+
+.gatsby-highlight pre {
+  box-shadow: 0 6px 15px #bbb;
+  border-radius: 10px;
 }
 
 @media screen and ( max-width: 440px ) {
-  .date {
+  .blog-post-date {
     display: block;
     float: none;
     margin-top: 10px;

@@ -1,0 +1,15 @@
+.tag-list {
+  margin-top: 20px;
+}
+
+.tag-list svg {
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
+.tag-item {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 14px;
+}

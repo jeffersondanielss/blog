@@ -1,0 +1,22 @@
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  display: block;
+  width: 100%;
+  background: -moz-linear-gradient(left, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #34c29c), color-stop(34%, #5bafce), color-stop(65%, #d5647b), color-stop(100%, #e4903d));
+  background: linear-gradient(to right, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
+}
