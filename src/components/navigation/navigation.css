@@ -5,11 +5,16 @@
   position: relative;
 }
 
+.navigation svg {
+  position: relative;
+  top: -1px;
+}
+
 .navigation::before {
   content: "";
   position: absolute;
   top: 0;
-  height: 2px;
+  height: 1px;
   display: block;
   width: 100%;
   background: -moz-linear-gradient(left, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
@@ -19,4 +24,16 @@
 
 .navigation-next {
   float: right;
+}
+
+@media screen and ( max-width: 320px ) {
+  .navigation {
+    text-align: center;
+  }
+  
+  .navigation-next {
+    float: none;
+    margin-top: 10px;
+    display: block;
+  }
 }

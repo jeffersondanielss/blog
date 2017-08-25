@@ -42,10 +42,16 @@
 }
 
 @media screen and ( max-width: 440px ) {
-  .blog-post-date {
-    display: block;
-    float: none;
-    margin-top: 10px;
-    font-size: 12px;
+  .blog-post-title {
+    font-size: 30px;
+  }
+  
+  .blog-post-content h1,
+  .blog-post-content h2,
+  .blog-post-content h3,
+  .blog-post-content h4,
+  .blog-post-content h5 {
+    margin: 40px 0 10px;
+    font-size: 22px;
   }
 }

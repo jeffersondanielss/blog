@@ -11,7 +11,7 @@ import './blog-post.css';
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data;
   const { next, prev } = pathContext;
-
+  console.log(post.frontmatter.path)
   return (
     <div>
       <div className="wrapper">
@@ -43,7 +43,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD/MM/YYYY")
         path
         tags
         title
