@@ -63,5 +63,6 @@ a {
 * html .wrapper { height: 1%; }
 
 li {
-  list-style: none
+  list-style: none;
+  margin-bottom: 5px;
 }

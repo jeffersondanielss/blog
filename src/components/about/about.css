@@ -1,0 +1,43 @@
+.about {
+  border-top: 1px solid #EFEFEF;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.social-media {
+  float: right;
+  margin-top: 9px;
+}
+
+.social-media svg {
+  font-size: 24px;
+  margin-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+.avatar-info {
+  display: inline-block;
+  margin: 3px 0 0 10px;
+}
+
+.avatar-image {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.avatar-name {
+  font-size: 14px;
+}
+
+.avatar-description {
+  font-size: 12px;
+}
+
+@media screen and ( max-width: 320px ) {
+  .social-media-label {
+    display: none; 
+  }
+}

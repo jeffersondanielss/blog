@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import Tags from '../../components/tags/tags';
 import Footer from '../../components/footer/footer';
 import Navigation from '../../components/navigation/navigation';
+import About from '../../components/about/about'
 
 import './blog-post.css';
 
@@ -29,6 +30,8 @@ export default function Template({ data, pathContext }) {
           />
         </div>
       </div>
+      
+      <About post={ post.frontmatter } />
       <Navigation prev={prev} next={next} />
       <Footer />
     </div>
