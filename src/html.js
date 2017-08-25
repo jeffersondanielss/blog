@@ -12,8 +12,7 @@ export default class HTML extends React.Component {
     let css;
     if (process.env.NODE_ENV === 'production') {
       css = (
-        <style
-          dangerouslySetInnerHTML={{
+        <style dangerouslySetInnerHTML={{
             __html: require('!raw!../public/styles.css'),
           }}
         />
@@ -21,23 +20,17 @@ export default class HTML extends React.Component {
     }
 
     return (
-      <html lang="en">
+      <html lang="pt-br">
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          {this.props.headComponents}
-          {css}
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          { this.props.headComponents }
+          { css }
         </head>
         <body>
-          <div
-            id="___gatsby"
-            dangerouslySetInnerHTML={{ __html: this.props.body }}
-          />
-          {this.props.postBodyComponents}
+          <div id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
+          { this.props.postBodyComponents }
         </body>
       </html>
     );

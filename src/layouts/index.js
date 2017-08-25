@@ -16,7 +16,7 @@ export default class Template extends React.Component {
         <Helmet
           title='Blog - Jefferson Daniel'
           link={[
-            { rel: 'icon', type: 'image/x-icon', href: 'favicon.png' }
+            { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
           ]}
           meta={[
             { name: 'description', content: 'Desenvolvedor front-end' },
