@@ -4,40 +4,48 @@ import HomeIcon from 'react-icons/lib/fa/home';
 import TagsIcon from 'react-icons/lib/fa/tags';
 
 import Link from '../components/link';
+import Notification from '../components/notification/notification'
+import Footer from '../components/footer/footer';
 
 export default function Tags({ pathContext }) {
   const { posts, post, tag } = pathContext;
+
   if (tag) {
     return (
       <div>
-        <h1>
-          {post.length} post{post.length === 1 ? '' : 's'} tagged with {tag}
-        </h1>
-        <ul>
-          {post.map(({ id, frontmatter, excerpt }) => {
-            return (
-              <li key={id}>
-                <h1>
-                  <GatsbyLink to={frontmatter.path}>
-                    {frontmatter.title}
-                  </GatsbyLink>
-                </h1>
-                <p>
-                  {excerpt}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
-        <Link to="/tags">
-          <TagsIcon /> All tags
-        </Link>
+        <div className='tag-template wrapper'>
+          <h1 className='tags-title'>
+            {tag} <Notification amount={ post.length } />
+          </h1>
+          <ul>
+            {post.map(({ id, frontmatter, excerpt }) => {
+              return (
+                <li className='post-preview' key={id}>
+                  <h1 className='post-preview-title'>
+                    <GatsbyLink to={frontmatter.path}>
+                      {frontmatter.title}
+                    </GatsbyLink>
+                  </h1>
+                  <p className='post-preview-text'>
+                    {excerpt}
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+          <Link to="/tags">
+            <TagsIcon /> All tags
+          </Link>
+        </div>
+
+        <Footer />
       </div>
     );
   }
+  
   return (
     <div className='wrapper'>
-      <h1>Tags</h1>
+      <h1 className='tags-title'>Tags</h1>
       <ul className="tags">
         {Object.keys(posts).map(tagName => {
           const tags = posts[tagName];

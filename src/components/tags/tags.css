@@ -1,3 +1,12 @@
+.wrapper.tag-template {
+  margin: 0 auto 40px;
+}
+
+.tags-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .tag-list {
   margin-top: 20px;
 }

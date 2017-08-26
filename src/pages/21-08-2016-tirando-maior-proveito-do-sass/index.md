@@ -2,7 +2,7 @@
 path: "/tirando-maior-proveito-do-sass.html"
 date: "2016-08-21"
 title: "Tirando maior proveito do SASS"
-tags: ["SASS", "CSS"]
+tags: ["SASS", "CSS", "front-end"]
 ---
 
 
