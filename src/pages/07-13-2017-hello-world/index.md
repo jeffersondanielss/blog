@@ -2,10 +2,6 @@
 path: "/hello-world.html"
 date: "2015-12-19T03:49:16.408Z"
 title: "Hello World"
-tags: ["first"]
----
-
-![hipster guy](./images/hipster.jpeg)
 ---
 
 Oláá, aqui nasce o primeiro post :), Já vou começar com um cliche:

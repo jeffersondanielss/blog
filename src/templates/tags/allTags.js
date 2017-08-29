@@ -14,7 +14,7 @@ export default ({ postInfo }) => {
         {
           Object.keys(posts).map(tagName => {
             const tags = posts[tagName];
-            console.log(tags.length)
+            
             return (
               <li className='tags-amout-posts' key={ tagName }>
                 <GatsbyLink  className='tags-title' to={`/tags/${tagName}`}>

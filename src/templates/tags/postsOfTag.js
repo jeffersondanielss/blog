@@ -7,10 +7,9 @@ import Footer from '../../components/footer/footer';
 import Notification from '../../components/notification/notification'
 
 export default ({ postInfo }) => {
-const { post, tag } = postInfo;
+  const { post, tag } = postInfo;
 
-return (  
-  <div>
+  return (
     <div className='tag-template wrapper'>
       <h1 className='tags-title'>
         { tag } <Notification amount={ post.length } />
@@ -37,8 +36,5 @@ return (
         <TagsIcon /> All tags
       </Link>
     </div>
-
-    <Footer />
-  </div>
-)
+  )
 }
