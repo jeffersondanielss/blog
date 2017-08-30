@@ -2,6 +2,7 @@
   "name": "blog",
   "description": "jeffersondaniel blog",
   "version": "0.0.1",
+  "url": "http://jeffersondaniel.com/blog",
   "dependencies": {
     "gatsby": "~1.0.5",
     "gatsby-link": "~1.0.1",

@@ -1,4 +1,6 @@
 const path = require('path');
+const pkg = require(path.join(__dirname, './package.json'))
+const url = pkg.url
 
 const createTagPages = (createPage, edges) => {
   const tagTemplate = path.resolve(`src/templates/tags/tags.js`);
@@ -83,7 +85,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         component: blogPostTemplate,
         context: {
           prev,
-          next
+          next,
+          url
         }
       });
     });

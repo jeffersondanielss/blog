@@ -11,7 +11,7 @@ import './blog-post.css';
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data;
   const { title, date, tags } = post.frontmatter
-  const { next, prev } = pathContext;
+  const { next, prev, url } = pathContext;
 
   return (
     <div>
@@ -33,7 +33,7 @@ export default function Template({ data, pathContext }) {
         </div>
       </div>
       
-      <About post={ post.frontmatter } />
+      <About post={ post.frontmatter } url={ url } />
       <Navigation prev={ prev } next={ next } />
       <Footer />
       
