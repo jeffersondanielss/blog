@@ -1,0 +1,14 @@
+.not-found {
+  text-align: center;
+}
+
+.not-found-title {
+  margin-bottom: 40px;
+}
+
+.not-found-line {
+  margin: 40px 0;
+  background: #EFEFEF;
+  height: 1px;
+  border: none;
+}
