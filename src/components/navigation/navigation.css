@@ -22,7 +22,7 @@
   background: linear-gradient(to right, #34c29c 0%, #5bafce 34%, #d5647b 65%, #e4903d 100%);
 }
 
-.navigation-next {
+.navigation-prev {
   float: right;
 }
 
@@ -31,7 +31,7 @@
     text-align: center;
   }
   
-  .navigation-next {
+  .navigation-prev {
     float: none;
     margin-top: 10px;
     display: block;

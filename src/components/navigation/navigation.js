@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '../link';
-import BackIcon from 'react-icons/lib/fa/chevron-left';
-import ForwardIcon from 'react-icons/lib/fa/chevron-right';
+import ForwardIcon from 'react-icons/lib/fa/chevron-left';
+import BackIcon from 'react-icons/lib/fa/chevron-right';
 import './navigation.css';
 
 export default ({ prev, next }) =>
@@ -9,12 +9,12 @@ export default ({ prev, next }) =>
     <div className="wrapper">
       {prev &&
         <Link className="navigation-prev" to={prev.frontmatter.path}>
-          <BackIcon /> {prev.frontmatter.title}
+          {prev.frontmatter.title} <BackIcon />
         </Link>}
 
       {next &&
         <Link className="navigation-next" to={next.frontmatter.path}>
-          {next.frontmatter.title} <ForwardIcon />
+          <ForwardIcon /> {next.frontmatter.title}
         </Link>}
     </div>
   </div>;
