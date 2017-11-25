@@ -2939,24 +2939,24 @@ function-bind@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
 
-gatsby-link@~1.0.1:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.0.9.tgz#5966555f7b60ebf407839e5681e296b5165bec21"
+gatsby-link@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.0.1.tgz#018ba8b1028a34c7ede2d804a3bf7228aa5af91f"
   dependencies:
     prop-types "^15.5.8"
     ric "^1.3.0"
 
-gatsby-plugin-catch-links@~1.0.1:
+gatsby-plugin-catch-links@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-1.0.1.tgz#6d02e3018d167ed9f5b14b73ea80f5687e496aa6"
 
-gatsby-plugin-react-helmet@~1.0.1:
+gatsby-plugin-react-helmet@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-1.0.1.tgz#98d60ed796f9115dc08daba89ac6a622c94e1897"
   dependencies:
     react-helmet "^5.1.3"
 
-gatsby-plugin-sharp@~1.0.1:
+gatsby-plugin-sharp@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.0.1.tgz#b961f9783815557edf67d862c82eaddfe35337e9"
   dependencies:
@@ -2969,7 +2969,7 @@ gatsby-plugin-sharp@~1.0.1:
     progress "^1.1.8"
     sharp "^0.17.3"
 
-gatsby-remark-images@~1.2.0:
+gatsby-remark-images@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.2.0.tgz#04be416487fc58e97e9d8c5c1422d302ae5e04e7"
   dependencies:
@@ -2988,7 +2988,7 @@ gatsby-remark-prismjs@^1.2.1:
     prismjs "^1.6.0"
     unist-util-visit "^1.1.1"
 
-gatsby-source-filesystem@~1.0.1:
+gatsby-source-filesystem@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-1.0.1.tgz#d7229fbbbdc895ef669a3101d6199df90c31e5e7"
   dependencies:
@@ -2998,7 +2998,7 @@ gatsby-source-filesystem@~1.0.1:
     pretty-bytes "^4.0.2"
     slash "^1.0.0"
 
-gatsby-transformer-remark@~1.1.0:
+gatsby-transformer-remark@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-1.1.0.tgz#c7954abcd8485fe66481a8ab3ec5fec1006721bc"
   dependencies:
@@ -3013,9 +3013,9 @@ gatsby-transformer-remark@~1.1.0:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.1.1"
 
-gatsby@~1.0.5:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.0.11.tgz#a129bf4aa082948e3f23a82ab08762ebd0aea6e8"
+gatsby@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.0.5.tgz#0d554bd049ffd50ecd8fd054f6387213270790fa"
   dependencies:
     async "^2.1.2"
     babel-core "^6.24.1"
@@ -3171,7 +3171,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@~0.12.0:
+gh-pages@0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-0.12.0.tgz#d951e3ed98b85699d4b0418eb1a15b1a04988dc1"
   dependencies:
@@ -6057,7 +6057,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.3.1, prettier@~1.5.3:
+prettier@1.5.3, prettier@^1.3.1:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.5.3.tgz#59dadc683345ec6b88f88b94ed4ae7e1da394bfe"
 
@@ -6296,7 +6296,7 @@ react-icon-base@2.0.7:
   dependencies:
     prop-types "15.5.8"
 
-react-icons@~2.2.5:
+react-icons@2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-2.2.5.tgz#f942501c21a4cc0456ce2bbee5032c93f6051dcf"
   dependencies:
@@ -6317,9 +6317,9 @@ react-router-dom@^4.1.1:
     prop-types "^15.5.4"
     react-router "^4.1.1"
 
-react-router-scroll@ytase/react-router-scroll#build:
+"react-router-scroll@github:ytase/react-router-scroll#build":
   version "0.4.1"
-  resolved "https://codeload.github.com/ytase/react-router-scroll/tar.gz/991ecddb08885e1fb80ec1e9dbf3a35844b7d4cd"
+  resolved "https://codeload.github.com/ytase/react-router-scroll/tar.gz/c95a900d58c70f4ae3852511cd9f517bc2ede39d"
   dependencies:
     scroll-behavior "^0.9.1"
     warning "^3.0.0"
