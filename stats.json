@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "commons": [
-      "commons-91953f83d956492956e7.js",
-      "commons-91953f83d956492956e7.js.map"
+      "commons-1a86c1fa36db7775dbc1.js",
+      "commons-1a86c1fa36db7775dbc1.js.map"
     ],
     "page-component---src-templates-blog-post-blog-post-js": [
       "page-component---src-templates-blog-post-blog-post-js-daab784c2360ea20769e.js",
@@ -69,8 +69,8 @@
       "path---404-html-586c7e095e534a3909ec.js.map"
     ],
     "app": [
-      "app-a1637222a5d76b560fb8.js",
-      "app-a1637222a5d76b560fb8.js.map"
+      "app-1e286273c576bca947ab.js",
+      "app-1e286273c576bca947ab.js.map"
     ]
   }
 }
