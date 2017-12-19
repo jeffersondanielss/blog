@@ -66,3 +66,13 @@ li {
   list-style: none;
   margin-bottom: 5px;
 }
+
+.blog-post-content blockquote p {
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  text-align: center;
+  padding: 0 50px;
+  line-height: 45px;
+  margin: 40px 0
+}

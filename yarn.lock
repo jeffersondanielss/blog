@@ -1022,19 +1022,19 @@ babel-register@^6.24.1:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.11.0"
-
 babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.6.1:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
+
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 babel-template@^6.24.1, babel-template@^6.25.0, babel-template@^6.7.0, babel-template@^6.9.0:
   version "6.25.0"
@@ -1566,7 +1566,7 @@ cli-width@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.1.0.tgz#b234ca209b29ef66fc518d9b98d5847b00edf00a"
 
-clipboard@^1.5.5:
+clipboard@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
   dependencies:
@@ -2979,13 +2979,13 @@ gatsby-remark-images@1.2.0:
     lodash "^4.17.4"
     unist-util-select "^1.5.0"
 
-gatsby-remark-prismjs@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-1.2.1.tgz#53df5326ce84f57f7f45d1533f3bed4c62d920a7"
+gatsby-remark-prismjs@^1.2.11:
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-1.2.11.tgz#2e0705c228ef8d282785f0f922ffd629126cbdf2"
   dependencies:
-    babel-runtime "6.26.0"
+    babel-runtime "^6.26.0"
     parse-numeric-range "^0.0.2"
-    prismjs "^1.6.0"
+    prismjs "^1.7.0"
     unist-util-visit "^1.1.1"
 
 gatsby-source-filesystem@1.0.1:
@@ -6065,11 +6065,11 @@ pretty-bytes@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-4.0.2.tgz#b2bf82e7350d65c6c33aa95aaa5a4f6327f61cd9"
 
-prismjs@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.6.0.tgz#118d95fb7a66dba2272e343b345f5236659db365"
+prismjs@^1.7.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.9.0.tgz#fa3e2d9edc3c3887c1f1f3095d41f1f9b4200f0f"
   optionalDependencies:
-    clipboard "^1.5.5"
+    clipboard "^1.7.1"
 
 private@^0.1.6:
   version "0.1.7"
@@ -6317,7 +6317,7 @@ react-router-dom@^4.1.1:
     prop-types "^15.5.4"
     react-router "^4.1.1"
 
-"react-router-scroll@github:ytase/react-router-scroll#build":
+react-router-scroll@ytase/react-router-scroll#build:
   version "0.4.1"
   resolved "https://codeload.github.com/ytase/react-router-scroll/tar.gz/c95a900d58c70f4ae3852511cd9f517bc2ede39d"
   dependencies:
