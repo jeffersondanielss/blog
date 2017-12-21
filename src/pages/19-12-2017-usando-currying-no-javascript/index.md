@@ -17,7 +17,7 @@ A técnica currying leva esse nome devido ao matemático norte americano Haskell
 O Currying é o processo de transformar uma função que leva vários argumentos para uma cadeia de funções, currying trabalha sempre com funções unárias, ou seja, cada uma das funções não leva mais de um argumento. Já o Partial Application é quando se tem funções com mais argumentos, e ao executa-lá ela vai retornar uma outra função com menos argumentos.
 
 ## Partial Application
-Podemos pegar como exemplo uma função de soma que na sua definição recebe dois parâmetros, usando esse conceito  essa função quando chamada pode receber os dois parâmetros e tudo ocorrerá normalmente como de costume, mas se receber apenas um parâmetros ela retornará outra função que vai receber essa segundo parâmetros que faltou na primeira vez que ela foi chamada, veja a implementação dessa função no exemplo abaixo:
+Podemos pegar como exemplo uma função de soma, que na sua definição recebe dois parâmetros, usando esse conceito essa função quando chamada pode receber: os dois parâmetros e tudo ocorrerá normalmente como de costume, ou ela pode receber apenas um dos parâmetros, nesse caso ela retornará outra função que vai receber o parâmetro que faltou, veja a implementação dessa função no exemplo abaixo:
 
 ```js
 var soma = function( x, y ) {
