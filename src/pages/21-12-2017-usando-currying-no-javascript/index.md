@@ -1,6 +1,6 @@
 ---
 path: "/usando-currying-no-javascript.html"
-date: "2017-12-19"
+date: "2017-12-21"
 title: "Usando currying no javascript"
 tags: ["javascript", "front-end", "javascript funcional"]
 ---
