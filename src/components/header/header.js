@@ -17,7 +17,7 @@ export default props =>
           <Github color='white' />  
         </a>
 
-        <a className='header-link' href='http://jeffersondaniel.com'>
+        <a className='header-link' href='http://jeffersondaniel.com' target='_blank'>
           <Home color='white' />  
         </a>
       </nav>
